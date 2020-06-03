@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Placement Cell Portal - Home</title>
     <meta charset="UTF-8">
@@ -10,11 +9,11 @@
 
 <body>
     <header>    
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/php/templates/"; include($IPATH."header.html"); ?>
+        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/views/"; include($IPATH."header.html"); ?>
     </header>
     
     <footer>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/php/templates/"; include($IPATH."footer.html"); ?>
+        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/views/"; include($IPATH."footer.html"); ?>
     </footer>
 
 </body>
